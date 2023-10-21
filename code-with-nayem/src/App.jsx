@@ -20,16 +20,7 @@ function App() {
 
   return (
     <>
-       {/* <NavBar/>
-       <Hero/>
-       <About/>
-       <Service/>
-       <Features/>
-       <Cta/>
-       <Portfolio/>
-       <Team/>
-       <Contact/>
-       <Footer/> */}
+
 
 
     <BrowserRouter>
