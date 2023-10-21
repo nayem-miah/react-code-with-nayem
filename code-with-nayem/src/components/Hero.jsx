@@ -1,12 +1,17 @@
 import React, { Component } from 'react'
 import NavBar from './NavBar'
-import Cta from './Cta'
 import Footer from './Footer'
+import Portfolio from './Portfolio'
 export default class Hero extends Component {
+
+
   render() {
+
+
     return (
       <div>
-        <> <NavBar/> </>
+        <>
+         <NavBar/> </>
           <section id="hero">
               <div class="hero-container">
                 <h3>Welcome to <strong>Tempo</strong></h3>
@@ -16,6 +21,7 @@ export default class Hero extends Component {
               </div>
             </section>
         <>
+        <Portfolio/>
         <Footer/>
         
         </>
