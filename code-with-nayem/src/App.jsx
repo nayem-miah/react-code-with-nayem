@@ -9,7 +9,7 @@ import Service from './components/Service'
 import Features from './components/Features'
 import Cta from './components/Cta'
 import Portfolio from './components/Portfolio'
-import Team from './components/team'
+// import Team from './components/team'
 import Contact from './components/Contact'
 import Blog from './components/Blog'
 
@@ -32,7 +32,7 @@ function App() {
           <Route path='/features' element={<Features/>}> </Route>
           <Route path='/cta' element={<Cta/>}> </Route>
           <Route path='/portfolio' element={<Portfolio/>}> </Route>
-          <Route path='/team' element={<Team/>}> </Route>
+          {/* <Route path='/team' element={<Team/>}> </Route> */}
           <Route path='/contact' element={<Contact/>}> </Route>
           <Route path='/blog' element={<Blog/>}> </Route>
           
